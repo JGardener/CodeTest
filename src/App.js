@@ -6,14 +6,18 @@ function App() {
   return (
     <div className="App">
       <table>
-        <tr>
-          <td>First Name</td>
-          <td>Last Name</td>
-          <td>Nationality</td>
-          <td>Score</td>
-          <td>Sex</td>
-        </tr>
+        <thead>
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Nationality</th>
+            <th>Score</th>
+            <th>Sex</th>
+          </tr>
+        </thead>
+        <tbody>
           <DataSocket />        
+        </tbody>
       </table>
     </div>
   );
